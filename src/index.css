@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('/fonts/ClashDisplay-Variable.ttf') format('truetype');
+    font-weight: 100 900; /* because it's a Variable font */
+    font-style: normal;
+  }
+  
+
+
+  @font-face {
+    font-family: 'ClashDisplay';
+    src: url('/fonts/Outfit-Variable.ttf') format('truetype');
+    font-weight: 100 900; /* because it's a Variable font */
+    font-style: normal;
+  }
+
+
+
+* {
+    padding:  0;
+    margin:  0;
+    box-sizing: 0;
+}
+
+
+
+
+
+
