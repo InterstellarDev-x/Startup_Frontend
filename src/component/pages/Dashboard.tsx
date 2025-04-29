@@ -1,4 +1,4 @@
-import IdeaCard, { Idea } from "../ui/CardComponetDashoard";
+import IdeaCard from "../ui/CardComponetDashoard";
 import { useQuery } from "@tanstack/react-query";
 import { getAllIdeas } from "../../Services/api";
 import Loader from "../ui/Loadex";
